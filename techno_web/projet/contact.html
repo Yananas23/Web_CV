@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Me Contacter</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="270x270"
+      href="pictures/favicon.png"
+    />
+  </head>
+
+  <body>
+    <div id="navbare">
+      <ul>
+        <li>
+          <a href="index.html">
+            <img src="pictures/logo.png" id="logo" alt="samus logo" />
+          </a>
+        </li>
+        <li><a href="propos.html" class="navi">A propos </a></li>
+        <li><a href="formation.html" class="navi">Formation</a></li>
+        <li id="current"><a href="contact.html" class="navi">Contact</a></li>
+      </ul>
+    </div>
+
+    <form onsubmit="validate(event)" class="contact">
+      <fieldset class="con">
+        <div class="demande">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required=""
+            placeholder="Votre nom"
+          />
+          <input
+            type="text"
+            id="surname"
+            name="surname"
+            required=""
+            placeholder="Votre prenom"
+          />
+        </div>
+      </fieldset>
+      <fieldset class="con">
+        <div class="demande">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"
+            required=""
+            placeholder="Votre téléphone"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Votre adresse mail"
+          />
+        </div>
+      </fieldset>
+      <div class="demande">
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Votre message..."
+          rows="10"
+          cols="50"
+          spellcheck="True"
+        ></textarea>
+      </div>
+
+      <button type="submit" id="send">Envoyer le message</button>
+    </form>
+
+    <script>
+      function validate(e) {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+
+        for (var [key, value] of formData.entries()) {
+          console.log(`${key}: ${value.type ? value.name : value}`);
+        }
+      }
+    </script>
+  </body>
+</html>

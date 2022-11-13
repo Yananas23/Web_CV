@@ -1,0 +1,51 @@
+
+A propos
+
+    ●  Informations personnelles
+        Prénom : Samus
+        Nom : Aran
+        Téléphone : 06-54-36-98-42
+        Mail : samus.aran@gmail.com
+        Date de naissance :  6 août 1976
+
+    ● Permis détenus
+        Vaisseau spatiale
+
+    A caser dans un texte
+
+        ● Accroche et/ou motivations
+            Exploration
+            Vengeance
+
+        ● Centres d’intérêt
+            chasse et peche
+            sport de combat
+
+Formations
+
+    ● Etudes
+        Date de début et de fin : 21 octobre 1990 - 7 juin 1992
+        Etablissement : Zebes
+        Diplôme ou certification obtenu : Militaire
+
+        Date de début et de fin : 13 sepembre 1993 - 23 mai 1997
+        Etablissement : Station de recherche Cerès
+        Diplôme ou certification obtenu : Ingénieur / Scientifique
+
+    ● Expériences professionnelles
+        Date de début et de fin : 15 juin 1998 - 12 mai 2001
+        Entreprise : Fédération Galactique
+        Poste occupé : Soldat
+        Description de la mission : Protéger l'univers
+
+        Date de début et de fin : 12 mai 2001 - Aujourd'hui
+        Poste occupé : Chasseuse de prime
+
+    ● Compétences
+        Qualifications techniques (hard skills) : tir / conduite / Ingénieur
+        Compétences comportementales (soft skills) : sang-froid / deduction / endurance
+
+Acceuil ??
+
+    ● Profil de plateformes externes
+        LinkedIn, Viadeo...
