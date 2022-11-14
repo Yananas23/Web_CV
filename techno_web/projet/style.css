@@ -77,7 +77,6 @@ body::-webkit-scrollbar-thumb
 }
 
 #navbare > ul{
-    padding-bottom: 5px;
     background-color: #aa7604;
     height: 50px;
     width: 100%;
@@ -94,9 +93,6 @@ body::-webkit-scrollbar-thumb
 }
 
 /*Home page*/
-
-/*anim à faire*/
-
 .home{
     display: flex;
     flex-direction: row;
@@ -131,7 +127,7 @@ body::-webkit-scrollbar-thumb
 
 /*Contact Page*/
 .contact {
-    margin-top: 5%;
+    padding-top: 9%;
     text-align: center;
 }
 
