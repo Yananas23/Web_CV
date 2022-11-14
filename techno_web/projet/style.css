@@ -15,7 +15,7 @@
     src: url(fonts/Serpentine.ttf) format('truetype');
 }
 
-@keyframes slidein { from { margin-top: 10%; 
+@keyframes slidein { from { margin-top: 0%; 
                             opacity: 0; } 
                     to {    margin-top:5%; 
                             opacity: 1;}  }
@@ -28,7 +28,7 @@
 }
 
 body{
-    background: #19787D /*linear-gradient( to top, #19787D, #aa7604)*/;
+    background: #19787D;
     -ms-overflow-style: auto;  /*Scrollbar for IE and Edge */
     scrollbar-width: auto;  /*Scrollbar for Firefox */
     scrollbar-color: #333333, #DDDDDD;
@@ -118,7 +118,7 @@ body::-webkit-scrollbar-thumb
 
 #no_armor {
     min-width: 150px;
-    max-width: 300px; /* trop petit quand écran plus petit*/
+    max-width: 280px; /* trop petit quand écran plus petit*/
     margin-top: 5%;
     animation: 0.3s linear 0s 1 forwards slidein;
 }
@@ -137,6 +137,17 @@ body::-webkit-scrollbar-thumb
     max-width: 300px; /* trop petit quand écran plus petit*/
     margin-top: 5%;
     animation: 0.3s linear 0s 1 forwards slidein;
+}
+
+#info{
+    background: #888888;
+    background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 200%;
+    animation: 0.3s linear 0s 1 forwards slidein;
+    margin-left: 10%;
 }
 
 
