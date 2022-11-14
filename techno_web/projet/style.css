@@ -124,7 +124,6 @@ body::-webkit-scrollbar-thumb
 }
 
 
-
 /*A_Propos page*/
 .info{
     display: flex;
@@ -143,7 +142,7 @@ body::-webkit-scrollbar-thumb
 
 /*Contact Page*/
 .contact {
-    padding-top: 9%;
+    padding-top: 60px;
     text-align: center;
 }
 

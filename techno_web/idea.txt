@@ -20,6 +20,9 @@ A propos
         ● Centres d’intérêt
             chasse et peche
             sport de combat
+    
+    ● Profil de plateformes externes
+        LinkedIn, Viadeo...
 
 Formations
 
@@ -44,8 +47,3 @@ Formations
     ● Compétences
         Qualifications techniques (hard skills) : tir / conduite / Ingénieur
         Compétences comportementales (soft skills) : sang-froid / deduction / endurance
-
-Acceuil ??
-
-    ● Profil de plateformes externes
-        LinkedIn, Viadeo...
