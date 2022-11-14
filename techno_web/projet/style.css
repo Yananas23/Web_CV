@@ -15,6 +15,11 @@
     src: url(fonts/Serpentine.ttf) format('truetype');
 }
 
+@keyframes slidein { from { margin-top: 10%; 
+                            opacity: 0; } 
+                    to {    margin-top:5%; 
+                            opacity: 1;}  }
+
 *{
     margin: 0;
     padding: 0;
@@ -98,7 +103,6 @@ body::-webkit-scrollbar-thumb
     flex-direction: row;
     justify-content: space-around;
     align-items : center;
-
 }
 
 .nom {
@@ -119,10 +123,22 @@ body::-webkit-scrollbar-thumb
     animation: 0.3s linear 0s 1 forwards slidein;
 }
 
-@keyframes slidein { from { margin-top: 10%; 
-                            opacity: 0; } 
-                    to {    margin-top:5%; 
-                            opacity: 1;}  }
+
+
+/*A_Propos page*/
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items : center;
+}
+
+#armored {
+    min-width: 150px;
+    max-width: 300px; /* trop petit quand écran plus petit*/
+    margin-top: 5%;
+    animation: 0.3s linear 0s 1 forwards slidein;
+}
 
 
 /*Contact Page*/
