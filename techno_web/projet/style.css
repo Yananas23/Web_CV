@@ -131,6 +131,9 @@ body::-webkit-scrollbar-thumb
     max-width: 300px; /* trop petit quand écran plus petit*/
     margin-top: 5%;
     animation: 0.3s linear 0s 1 forwards slidein;
+    position: fixed;
+    top: 70px;
+    left: 150px
 }
 
 .information{
@@ -142,6 +145,10 @@ body::-webkit-scrollbar-thumb
     font-size: 200%;
     animation: 0.3s linear 0s 1 forwards slidein;
     margin-left: 10%;
+    position: relative;
+    top: 75px;
+    left:70%
+    
 }
 
 
