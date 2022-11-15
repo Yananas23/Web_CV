@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb
     background: #888888;
     background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
     -webkit-background-clip: text;
-    /* background-clip: text; */
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 500%;
     animation: 0.3s linear 0s 1 forwards slidein;
