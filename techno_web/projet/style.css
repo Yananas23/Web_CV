@@ -94,7 +94,7 @@ body::-webkit-scrollbar-thumb
     display: flex;
     align-items : center ;
     justify-content: space-around;
-    z-index: 9;  
+    z-index: 1;  
     position: fixed;
 }
 
@@ -158,6 +158,51 @@ body::-webkit-scrollbar-thumb
     top: 140px;
 }
 
+
+/*Formation Page*/
+.formation  ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.zebes > img{
+    width: 40%;
+    margin-top: 120px;
+}
+
+.zebes.corps{
+    font-size:150%;
+    margin-top: 200px;
+}
+
+
+.ceres > img{
+    width: 40%;
+    margin-top: 120px;
+    
+}
+
+.ceres.corps{
+    font-size:150%;
+    margin-top: 150px;
+}
+
+
+.military > img{
+    width: 20%;
+}
+
+.military.corps{
+    font-size:150%;
+    margin-top: 130px;
+}
+
+
+.ship.corps{
+    font-size:150%;
+    margin-top: 120px;
+}
 
 /*Contact Page*/
 .contact {
