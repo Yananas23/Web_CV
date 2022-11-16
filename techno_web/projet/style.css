@@ -127,13 +127,13 @@ body::-webkit-scrollbar-thumb
 /*A_Propos page*/
 .info{
     display: flex;
-    justify-content: space-around;
+    margin-left: 30%;
+    text-align: center;
 }
 
 #armored {
     min-width: 150px;
     max-width: 300px; /* trop petit quand écran plus petit*/
-    top: 5%;
     animation: 0.3s linear 0s 1 forwards slidetop;
     position: fixed;
     left: 150px
@@ -143,20 +143,19 @@ body::-webkit-scrollbar-thumb
     font-size: 200%;
     animation: 0.5s linear 0s 1 forwards fadein;
     position: relative;
-    margin-left: 50%;
-    top: 75px;
+    top: 120px;
 }
 
 .title{
     font-size: 300%;
     animation: 0.5s linear 0s 1 forwards fadein;
     position: relative;
-    margin-left: 30%;
-    top: 75px;
+    top: 100px;
+    margin-bottom: 15px;
 }
 
-.info  #resume{
-    top: 100px;
+#resume{
+    top: 140px;
 }
 
 
