@@ -36,6 +36,14 @@ body{
 
 }
 
+.corps{
+    background: #888888;
+    background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* Scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar-track
   {
@@ -89,32 +97,26 @@ body::-webkit-scrollbar-thumb
 
 #logo {
     width: 30px;
-    margin-top: 10%;
+    top: 10%;
 }
 
 /*Home page*/
 .home{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items : center;
 }
 
 .nom {
-    background: #888888;
-    background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 500%;
     animation: 0.3s linear 0s 1 forwards slidein;
-    margin-left: 10%;
+    left: 10%;
 }
 
 #no_armor {
     min-width: 150px;
     max-width: 280px; /* trop petit quand écran plus petit*/
-    margin-top: 5%;
+    top: 5%;
     animation: 0.3s linear 0s 1 forwards slidein;
 }
 
@@ -129,25 +131,18 @@ body::-webkit-scrollbar-thumb
 #armored {
     min-width: 150px;
     max-width: 300px; /* trop petit quand écran plus petit*/
-    margin-top: 5%;
+    top: 5%;
     animation: 0.3s linear 0s 1 forwards slidein;
     position: fixed;
-    top: 70px;
     left: 150px
 }
 
 .information{
-    background: #888888;
-    background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 200%;
     animation: 0.3s linear 0s 1 forwards slidein;
-    margin-left: 10%;
+    left: 30%;
     position: relative;
     top: 75px;
-    left:70%
     
 }
 
