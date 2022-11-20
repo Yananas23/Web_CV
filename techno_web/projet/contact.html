@@ -85,16 +85,5 @@
     <a href="https://twitter.com/NintendoFrance" target="_blank" class="Link">
       <img src="pictures/twitter.png" alt="twitter logo" class="extern" />
     </a>
-
-    <script>
-      function validate(e) {
-        e.preventDefault();
-        const formData = new FormData(e.target);
-
-        for (var [key, value] of formData.entries()) {
-          console.log(`${key}: ${value.type ? value.name : value}`);
-        }
-      }
-    </script>
   </body>
 </html>
