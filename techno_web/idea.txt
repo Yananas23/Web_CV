@@ -47,3 +47,9 @@ Formations
     ● Compétences
         Qualifications techniques (hard skills) : tir / conduite / Ingénieur
         Compétences comportementales (soft skills) : sang-froid / deduction / endurance
+
+
+
+footer:
+    mention legal:
+        copyright
