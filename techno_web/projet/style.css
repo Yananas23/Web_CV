@@ -28,6 +28,13 @@ body{
 
 }
 
+footer{
+    background-color: #aa7604;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
 .corps{
     background: #888888;
     background: radial-gradient(circle farthest-corner at top left, #666666 0%, #333333 70%);
@@ -133,37 +140,36 @@ body::-webkit-scrollbar-thumb
 
 
 /*A_Propos page*/
-.info{
+.info ul{
     display: flex;
-    margin-left: 30%;
     text-align: center;
+    justify-content: space-evenly;
+    
 }
 
 #armored {
     min-width: 150px;
     max-width: 300px; /* trop petit quand écran plus petit*/
     animation: 0.3s linear 0s 1 forwards slidetop;
-    position: fixed;
-    left: 150px
+    margin-left: 150px;
+    padding-top:30px;
 }
 
 .information{
     font-size: 200%;
     animation: 0.5s linear 0s 1 forwards fadein;
-    position: relative;
     top: 120px;
 }
 
 .title{
     font-size: 300%;
     animation: 0.5s linear 0s 1 forwards fadein;
-    position: relative;
-    top: 100px;
+    margin-top: 100px;
     margin-bottom: 15px;
 }
 
 #resume{
-    top: 140px;
+    margin-top: 140px;
 }
 
 
@@ -175,7 +181,7 @@ body::-webkit-scrollbar-thumb
 /*Formation Page*/
 .formation  ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -197,9 +203,10 @@ body::-webkit-scrollbar-thumb
 }
 
 .ceres.corps{
+    width: 100%;
     font-size:150%;
     margin-top: 120px;
-    margin-right: 200px;
+    margin-right: 50px;
 }
 
 
