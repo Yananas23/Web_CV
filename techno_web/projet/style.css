@@ -280,3 +280,13 @@ input[type] {
     width: 50px;
     margin-left: 1%;
 }
+
+
+
+@media screen and (768px <= width <= 992px){
+
+}
+
+
+@media screen and ( width < 768px ){
+}
